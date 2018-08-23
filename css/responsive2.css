@@ -1,0 +1,790 @@
+@media only screen and (max-width:1919px){
+    /* index */
+    .topbox{
+        position: relative;
+        display: block;
+        left: 0;
+    }
+    section.event .contentContainer .eventTitle{
+        padding-left: 0;
+    }
+    /* index */
+}
+@media only screen and (max-width:1790px){
+    /* nav */
+        header .navHolder nav .desktop{
+            text-align: center;
+        }
+        header .navHolder nav .desktop li {
+            display: inline-block;
+            float: none;
+            margin: 0 3%;
+        }
+        header .navHolder nav .desktop li:not(:first-child) {
+            margin-left: 0;
+        }
+    /* nav */
+    /* index */
+        .eventBanner img{
+            width: 100%;
+        }
+    /* index */
+}
+@media only screen and (max-width:1650px){
+    /* nav */
+        header .navHolder nav .desktop{
+            text-align: center;
+        }
+        header .navHolder nav .desktop li {
+            display: inline-block;
+            float: none;
+            margin: 0 3%;
+        }
+        header .navHolder nav .desktop li:not(:first-child) {
+            margin-left: 0;
+        }
+    /* nav */
+    /* index */
+    .event .bigCircle{
+        position: relative;
+        top: inherit;
+        right: 0;
+        float: left;
+        margin-left: 30px;
+    }
+    /* index */
+}
+@media only screen and (max-width:1520px){
+    /* nav */
+        header .navHolder nav .desktop li {
+            margin: 0 2%;
+        }
+    /* nav */
+}
+@media only screen and (max-width:1355px){
+    /* nav */
+        header .navHolder nav .desktop li {
+            margin: 0 1.45%;
+        }
+    /* nav */
+}
+@media only screen and (max-width:1280px){
+/* nav */
+    header .navHolder nav .desktop li {
+        margin: 0 .8%;
+    }
+/* nav *
+/* index */
+    .bBox .contentContainer{
+        padding: 0 30px;
+    }
+    .bBox .banner .contentContainer{
+        padding: 0 80px;
+    }
+    .contentContainer{
+        padding: 0 15px;
+    }
+    .topbox{
+        line-height: 64px;
+    }
+    .infoList .itemBox.content .itemLeft{
+        max-width: 800px;
+        margin-right: 70px;
+        float: none;
+    }
+    .list1 .infoList .itemBox .itemLeft{
+        margin-right: 40px;
+    }
+    .sv .svBox{
+        max-width: 405px;
+        padding: 0 8px;
+        width: 33%;
+    }
+    .sv .svBox.middle{
+        margin: 0;
+    }
+/* index */
+/* main */
+    #main .bannerSlider .item .contents .type{
+        margin: -40px;
+        margin-bottom: 20px;
+    }
+/* main */
+/* footer  */
+    #footerWrap .details {
+        width: 50%;
+    }
+    #footerWrap .link-wrap {
+        width: 35%;
+    }
+    #footerWrap .logo-b {
+        float: none;
+        display: block;
+        margin-right: 0;
+    }
+    #footerWrap .site-notice, #footerWrap .copyright {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: 0;
+    }
+    #footerWrap .site-notice {
+        margin-top: 10px;
+    }
+    #footerWrap .copyright {
+        line-height: 2;
+    }
+    #footerWrap .link-wrap{
+        text-align: right;
+    }
+/* footer  */
+}
+
+@media only screen and (max-width: 1200px){
+/* nav */
+header .navHolder nav .desktop li {
+    margin: 0;
+    width: 20%;
+    text-align: center;
+}
+/* nav * */
+/* index */
+    .infoList .itemBox.content .itemLeft{
+        max-width: 634px;
+        margin-right: 5%;
+    }
+    .infoList .itemBox.content p br{
+        display: none;
+     }
+/* index */
+/* footer  */
+    #footerWrap .sns-wrap {
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+/* footer  */
+}
+@media only screen and (max-width: 1024px){
+/* header */
+    header .navHolder{
+        border: 0;
+        border-top: 10px solid #ee7609;
+    }
+    .navHolder .container{
+        padding: 0;
+    }
+    header .navHolder nav .desktop{
+        display: none;
+    }
+    header .navHolder nav .mobile{
+        position: relative;
+        background: white;
+    }
+    header .navHolder nav .mobile.open{
+        display: block;
+    }
+    header .navHolder nav .mobile div:first-of-type{
+        border-right: .5px solid #f0f0f0;
+    }
+    header .navHolder nav .mobile div:last-of-type{
+        border-left: .5px solid #f0f0f0;
+    }
+    header .navHolder nav .mobile:before{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #f0f0f0;
+    }
+    header .navHolder nav .mobile .menuTitle{
+        font-size: 35px;
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 800;
+        padding-bottom: 30px; 
+        display: block;
+        line-height: 1;
+        max-width: 229px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 45px; 
+    }
+    header .navHolder nav .mobile .menuTitle:after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 229px;
+        background: #ee7609;
+        height: 3px;
+    }
+    header .navHolder nav .mobile ul{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        list-style: none;
+        text-align: center;
+    }
+    header .navHolder nav .mobile ul li{
+        margin-bottom: 35px;
+    }
+    header .navHolder nav .mobile ul li a{
+        font-size: 28px;
+        color: #696969;
+        font-weight: 700;
+    }
+    header .navHolder nav .desktop li a.active{
+        color: #ee7609;
+    }
+    header .searchBox .burger{
+        display:block;
+    }
+    header .searchBox{
+        padding: 0;
+    }
+    header .searchBox .utility{
+        display: none;
+    }
+    header .mobile .bt1{
+        border-top: 2px solid #f0f0f0;
+    }
+    header .mobile .searchBox .utility{
+        display: block;
+    }
+    header .mobile .searchBox{
+        float: none !important;
+        background-color: #f0f0f0;
+        padding: 30px;
+        border-bottom: 10px solid #ee7609;
+    }
+    header .searchBox .utility select{
+        max-width:494px;
+        height: 71px;
+        font-size: 28px;
+        color: #696969;
+        border: 2px solid #696969;
+        background-image: url(../img/chevd.png);
+        padding-right: 30px;
+        background-position: center right 20px;
+    }
+    header .searchBox .utility .btn-go, .select-published .btn-go{
+        width: 154px;
+        height: 73px;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        background-color: #ee7609;
+        border-color: #ee7609;
+    }
+    /* header .searchBox .file{
+        display: none;
+    }
+    header .searchBox input{
+        display: none;
+    } */
+/* header */
+
+/* index */
+    .banner{
+        height: 483px;
+    }
+
+    .banner2{
+        height: 320px;
+    }
+
+    .note{
+        font-size: 22.34px;
+    }    
+    .bBox .bgGray{
+        margin: 0;
+        height: auto;
+    }
+    .evlogo .infoList .itemBox .item{
+        float: none;
+    }
+    .evlogo .infoList .itemBox .itemLeft{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    section.event .list .itemList{
+        width: 25%;
+        max-width: 25%;
+    }
+    .evlogo .infoList .itemBox .itemRight{
+        width: 100%;
+        text-align: center;
+    }
+    .infoList .content .itemRight{
+        padding: 15px;
+    }
+    section.event .eventBanner .message{
+        position: absolute;
+        width: 100%;
+        max-width: 791px;
+        background-color: rgba(0,0,0,0.7);
+        top: 45px;
+        left: 45px;
+        max-width: 550px;
+        padding: 15px;
+    }
+    .event .fw .box{
+        width: 50%;
+    }
+    .event .fw .box:not(:first-child){
+        margin: 0;
+    }
+    .event .fw .box:not(:first-child):before{
+        position: absolute;
+        content: '';
+        height: 20px;
+        top: 0;
+        bottom: 10px;
+        right: 0;
+        margin: auto;
+        width: 50px;
+        background: url(../img/garrow.png);
+        background-repeat: no-repeat;
+        background-position: right 50px center;
+        overflow: hidden;
+    }
+    .event .fw .box .iBox.ga:before{
+        right: 0;
+
+    }
+    section.event .eventBanner .message .heading{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    section.event .eventBanner .message p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .eventBanner img{
+        height: 450px;
+    }
+/* index */
+
+/* main */
+    .navContainer{
+        display: none;
+    }
+    #main .bannerSlider .owl-carousel.owl-theme.owl-loaded.owl-drag{
+        overflow: hidden;
+    }
+    #main .bannerSlider .item{
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    #main .bannerSlider .item .contents{
+        padding: 28px 0;
+        padding-left: 30px;
+        max-width: 371px;
+    }
+    #main .bannerSlider .item .contents .type{
+        margin: -30px;
+        margin-bottom: 20px;
+    }
+    #main .bannerSlider .item .contents a{
+        font-size: 20px;
+    }
+    #main .bannerSlider .owl-dots{
+        display: block;
+        padding: 0 37px;
+    }
+    #main .bannerSlider  .owl-dots .owl-dot{
+        width: 100%;
+        max-width: 31px;
+        line-height: 5px;
+        height: 5px;
+        outline: none;
+        border: 0;
+    }
+    #main .bannerSlider  .owl-dots .owl-dot span{
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: 5px;
+        margin-right: 10px;
+        background-color: #9a9999;
+    }
+    #main .bannerSlider .owl-dots .owl-dot.active{
+        max-width: 55px;
+    }
+    #main .bannerSlider .owl-dots .owl-dot.active span, #main .bannerSlider .owl-theme .owl-dots .owl-dot:hover span{
+        background-color: white;
+    }
+/* main */
+
+/* TSI */
+.innovators .heading{
+    font-size: 25px;
+}
+.innovators .tsi .swiper-container{
+    margin-top: 20px;
+    padding: 15px 15px 0;
+}
+.innovators .tsi .swiper-slide.swiper-slide-next{
+    left: 0;
+}
+.innovators .tsi .swiper-slide.swiper-slide-prev{
+    right: 0;
+}
+/* TSI */
+
+/* SS */
+#ss .stepBox{
+    float: none;
+    width: 100%;
+    padding-bottom: 50px;
+}
+#ss .imgList .imgBox:not(:first-child){
+    margin:0;
+}
+#ss .imgList .imgBox{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    float: none;
+    margin-top: 50px !important;
+}
+#ss .msgBox{
+    margin-top:50px;
+}
+#trPage .banner.heBox.sp{
+    background-position-x :calc(100% + 140px);
+}
+/* SS */
+}
+
+
+@media only screen and (max-width: 767px){
+/* footer */
+    
+    #footerWrap .logo-b {
+        /* display: none; */
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #footerWrap .details, #footerWrap .link-wrap {
+        float: none;
+        width: 100%;
+    }
+    #footerWrap .site-notice, #footerWrap .copyright {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    #footerWrap .site-notice li{
+        line-height: 1;
+    }
+    #footerWrap .sns-wrap {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #footerWrap .newsletter {
+        margin: 0 auto;
+        float: none;
+        width: 60%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display:block;
+    }
+/* footer */
+
+/* essay */
+#essay h3{
+    font-size: 40px;
+}
+.essayContent .contentContainer{
+    padding: 0 30px;
+}
+.essayContent .postings{
+    margin:70px 0;
+}
+.essayContent .postings .col-xs-12{
+    padding: 0;
+}
+.essayContent .postings img{
+    width: 100%;
+}
+.essayContent .boxes{
+    margin-bottom: 70px;
+}
+.essayContent .title{
+    font-size: 20px;
+    border-top: 3px solid;
+    padding-left: 80px;
+    margin-bottom: 34px;
+    line-height: 65px;
+    padding-top: 0;
+    margin-bottom: 12px;
+}
+.essayContent .title:before{
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 65px;
+    left: 0;
+    top: 0;
+}
+.essayContent .boxes .content p{
+    font-size: 25px;
+}
+.essayContent .postings .details{
+    margin-top: 25px;
+}
+.essayContent .postings .details p{
+    font-size: 25px;
+}
+.essayContent .postings .details:not(:first-of-type){
+    margin-top: 30px;
+}
+.essayContent .qouteBox{
+    margin-bottom: 40px;
+}
+/* essay */
+
+/* index */
+    .banner .topArea{
+        padding-top: 116px;
+    }
+    .banner .note{
+        font-size: 22.34px;
+    }
+    .banner .tagBox .bgRed{
+        font-size: 17.87px;
+    }
+    .banner .tagBox span{
+        font-size: 17.87px;
+    }
+    .banner .topArea h3{
+        font-size: 62.55px;
+    }
+    .banner .topArea .otherBox span{
+        font-size: 20px;
+    }
+    .bBox .bgGray p br{
+        display: none;
+    }
+    .bBox .bgGray p{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft p{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft .question{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft .tophead{
+        font-size: 20px;
+    }
+    .infoList .itemBox .itemRight{
+        width: 100%;
+        float: none;
+    }
+    .infoList .itemBox .itemRight .info .head{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemRight .info p{
+        font-size: 22px;
+    }
+    .precon .eventBox:not(:first-child){
+        margin: 0;
+        margin-top: 30px;
+    }
+    .precon .eventBox{
+        width: 100%;
+        float: none;
+    }
+    .precon .eventBox .event{
+        display: table;
+    }
+    .precon .eventBox .event .title {
+        position: relative;
+        display: table-cell;
+    }
+    .precon .eventBox .event .details {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .precon .eventBox .event .details .notes span{
+        font-size: 22px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .precon .eventBox .event .details a{
+        text-align: left;
+    }
+    .precon .eventBox .event .details a{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .precon .eventBox .event .details a span{
+        margin: 0;
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+/* index */
+}
+@media only screen and (max-width:720px){
+/* index */
+    .banner{
+        background-image: url(../img/indexbanner1.png);
+    }
+    #trPage .banner.heBox.sp{
+        background-position-x :calc(100% + 300px);
+    }
+/* index */
+/* essay */
+    #essay{
+        background: url(../img/essaybgmob.png);
+        padding-top: 75px;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+/* essay */
+}
+
+@media only screen and (max-width: 650px){
+     .modal-bg .modal-box{
+        top:50px;
+        -webkit-transform:translate(-50%,0);
+        -moz-transform:translate(-50%,0);
+        transform:translate(-50%,0);
+    }
+    .modal-bg .modal-box .modal-top{
+        height: 45px;
+        padding:0 30px;
+    }
+    .modal-bg .modal-box .modal-top p{
+        line-height: 45px;
+    }
+    .modal-bg .modal-box .modal-con{
+        padding:15px 30px;
+    }
+    .modal-bg .modal-box .modal-con p{
+        font-size:12.885px;
+    }
+    .modal-bg .modal-box .btn-modal-close{
+        margin-top:20px;
+    }
+/* header */
+    header .navHolder nav .mobile .menuTitle{
+        font-size: 25px;
+        width: 100%;
+    }
+    header .navHolder nav .mobile ul li a{
+        font-size: 18px;
+    }
+/* header */
+
+/* essay */
+    .essayContent .title{
+        font-size: 18px;
+        border-top: 3px solid;
+        padding-left: 80px;
+        margin-bottom: 34px;
+        line-height: 65px;
+        padding-top: 0;
+        margin-bottom: 12px;
+    }
+    .essayContent .title:before{
+        position: absolute;
+        content: '';
+        width: 65px;
+        height: 65px;
+        left: 0;
+        top: 0;
+    }
+    .essayContent .postings{
+        margin: 40px 0;
+    }
+    .essayContent .boxes{
+        margin: 40px 0;
+    }
+    .essayContent .boxes .content p{
+        font-size: 16px;
+    }
+    .essayContent .postings .details{
+        margin: 0;
+    }
+    .essayContent .postings .details p{
+        font-size: 16px;
+    }
+    .essayContent .qouteBox span{
+        font-size: 20px;
+        padding: 30px 0;
+    }
+/* essay */
+}
+@media only screen and (max-width: 375px){
+/* header */
+    header .navHolder nav .mobile div{
+        width: 100%;
+        border: 0;
+    }
+    header .logo{
+        width:140px;
+    }
+    header .searchBox .burger{
+        width: 35px;
+    }
+    header img{
+        width: 100%;
+    }
+
+/* header */
+/* main */
+    #main .logoBox .col-xs-6{
+        width: 100%;
+        float: none;
+    }
+/* main */
+}
+
+.inSight-mo {
+	display: none;
+}
+
+@media only screen and (max-width: 375px){
+
+	.col-xs-6 {
+		width: 100%;
+	}
+
+	.col-xs-6 img{
+		padding-bottom: 30px;
+	}
+
+	.np{
+		padding: 10px;
+	}
+
+	.inSight-pc {
+		display: none;
+	}
+
+	.inSight-mo {
+		display: block;
+	}
+
+}

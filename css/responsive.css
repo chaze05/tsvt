@@ -1,0 +1,1428 @@
+@media only screen and (max-width:1919px){
+    /* index */
+    .topbox{
+        position: relative;
+        display: block;
+        left: 0;
+    }
+    section.event .contentContainer .eventTitle{
+        padding-left: 0;
+    }
+    /* index */
+}
+@media only screen and (max-width:1790px){
+    /* nav */
+        header .navHolder nav .desktop{
+            text-align: center;
+        }
+        header .navHolder nav .desktop li {
+            display: inline-block;
+            float: none;
+            margin: 0 3%;
+        }
+        header .navHolder nav .desktop li:not(:first-child) {
+            margin-left: 0;
+        }
+    /* nav */
+
+}
+@media only screen and (max-width:1650px){
+    /* nav */
+        header .navHolder nav .desktop{
+            text-align: center;
+        }
+        header .navHolder nav .desktop li {
+            display: inline-block;
+            float: none;
+            margin: 0 3%;
+        }
+        header .navHolder nav .desktop li:not(:first-child) {
+            margin-left: 0;
+        }
+    /* nav */
+    /* index */
+    .event .bigCircle{
+        position: relative;
+        top: inherit;
+        right: 0;
+        float: left;
+        margin-left: 30px;
+    }
+
+    /* index */
+}
+@media only screen and (max-width:1520px){
+    /* nav */
+        header .navHolder nav .desktop li {
+            margin: 0 2%;
+        }
+    /* nav */
+}
+@media only screen and (max-width:1355px){
+    /* nav */
+        header .navHolder nav .desktop li {
+            margin: 0 1.45%;
+        }
+    /* nav */
+}
+@media only screen and (max-width:1280px){
+/* nav */
+    header .navHolder nav .desktop li {
+        margin: 0 .8%;
+    }
+/* nav *
+/* index */
+    .eventBanner img{
+        width: 100%;
+        height: auto !important;
+    }
+    .bBox .contentContainer{
+        padding: 0 30px;
+    }
+    .bBox .banner .contentContainer{
+        padding: 0 10%;
+    }
+    .contentContainer{
+        padding: 0 15px;
+    }
+    .event .contentContainer{
+        padding: 0;
+    }
+    .event .infoList{
+        padding: 0 30px;
+    }
+    .topbox{
+        line-height: 64px;
+    }
+    .infoList .itemBox.content .itemLeft{
+        max-width: 800px;
+        margin-right: 70px;
+    }
+    .list1 .infoList .itemBox .itemLeft{
+        margin-right: 40px;
+    }
+    .sv .svBox{
+        max-width: 405px;
+        padding: 0 8px;
+        width: 33%;
+    }
+    .sv .svBox.middle{
+        margin: 0;
+    }
+    .h-sv-slider .owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+    }
+    .h-sv-slider .owl-carousel .owl-nav button.owl-next{
+        right: 0;
+    }
+    .h-sv-slider .owl-theme .owl-nav [class*=owl-]:hover {
+        background: rgba(255,255,255,.7);
+    }
+    .h-sv-slider .owl-carousel .owl-nav button{
+        background: rgba(255,255,255,.7);
+    }
+/* index */
+/* main */
+    #main .bannerSlider .item .contents .type{
+        margin: -40px;
+        margin-bottom: 20px;
+    }
+/* main */
+
+/* ss */
+#ss .imgList .imgBox{
+    width: 34%;
+}
+/* ss */
+
+
+/* footer  */
+    #footerWrap .details {
+        width: 50%;
+    }
+    #footerWrap .link-wrap {
+        width: 35%;
+    }
+    #footerWrap .logo-b {
+        float: none;
+        display: block;
+        margin-right: 0;
+    }
+    #footerWrap .site-notice, #footerWrap .copyright {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: 0;
+    }
+    #footerWrap .site-notice {
+        margin-top: 10px;
+    }
+    #footerWrap .copyright {
+        line-height: 2;
+    }
+    #footerWrap .link-wrap{
+        text-align: right;
+    }
+/* footer  */
+}
+
+@media only screen and (max-width: 1200px){
+/* nav */
+header .navHolder nav .desktop li {
+    margin: 0;
+    width: 20%;
+    text-align: center;
+}
+/* nav * */
+/* index */
+    .infoList .itemBox.content .itemLeft{
+        max-width: 634px;
+        margin-right: 5%;
+    }
+    .infoList .itemBox.content p br{
+        display: none;
+     }
+/* index */
+/* footer  */
+    #footerWrap .sns-wrap {
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+/* footer  */
+}
+@media only screen and (max-width: 1024px){
+
+    .infoList .itemBox .item{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+/* header */
+    header .navHolder{
+        border: 0;
+        border-top: 10px solid #ee7609;
+    }
+    .navHolder .container{
+        padding: 0;
+    }
+    header .navHolder nav .desktop{
+        display: none;
+    }
+    header .navHolder nav .mobile{
+        position: relative;
+        background: white;
+    }
+    header .navHolder nav .mobile.open{
+        display: block;
+    }
+    header .navHolder nav .mobile div:first-of-type{
+        border-right: .5px solid #f0f0f0;
+    }
+    header .navHolder nav .mobile div:last-of-type{
+        border-left: .5px solid #f0f0f0;
+    }
+    header .navHolder nav .mobile:before{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #f0f0f0;
+    }
+    header .navHolder nav .mobile .menuTitle{
+        font-size: 35px;
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 800;
+        padding-bottom: 30px; 
+        display: block;
+        line-height: 1;
+        max-width: 229px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 45px; 
+    }
+    header .navHolder nav .mobile .menuTitle:after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 229px;
+        background: #ee7609;
+        height: 3px;
+    }
+    header .navHolder nav .mobile ul{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        list-style: none;
+        text-align: center;
+    }
+    header .navHolder nav .mobile ul li{
+        margin-bottom: 35px;
+    }
+    header .navHolder nav .mobile ul li a{
+        font-size: 28px;
+        color: #696969;
+        font-weight: 700;
+    }
+    header .navHolder nav .desktop li a.active{
+        color: #ee7609;
+    }
+    header .searchBox .burger{
+        display:block;
+    }
+    header .searchBox{
+        padding: 0;
+    }
+    header .searchBox .utility{
+        display: none;
+    }
+    header .mobile .bt1{
+        border-top: 2px solid #f0f0f0;
+    }
+    header .mobile .searchBox .utility{
+        display: block;
+        height: 60px
+    }
+    header .mobile .searchBox{
+        float: none !important;
+        background-color: #f0f0f0;
+        padding: 10px 0;
+        border-bottom: 10px solid #ee7609;
+    }
+    header .searchBox .utility select{
+        margin-top:-35px;
+        max-width: 494px;
+        height: 33px;
+        font-size: 17px;
+        color: #696969;
+        border: 2px solid #696969;
+        background-image: url(../img/chevd.png);
+        background-size: 11px;
+        padding-right: 0;
+        padding-left:15px;
+        margin-left: 4px;
+        background-position: center right 20px;
+        border-width: 1px;
+
+    }
+    header .searchBox .utility .btn-go, .select-published .btn-go{
+        margin-top:-35px;
+        width: 64px;
+        height: 33px;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        background-color: #ee7609;
+        border-color: #ee7609;
+    }
+    /* header .searchBox .file{
+        display: none;
+    }
+    header .searchBox input{
+        display: none;
+    } */
+/* header */
+
+/* index */
+    .banner{
+        height: 483px;
+    }
+    .note{
+        font-size: 22.34px;
+    }    
+    .bBox .bgGray{
+        margin: 0;
+        height: auto;
+    }
+    .evlogo .infoList .itemBox .item{
+        float: none;
+    }
+    .evlogo .infoList .itemBox .itemLeft{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    section.event .list .itemList{
+        width: 25%;
+        max-width: 25%;
+    }
+    .evlogo .infoList .itemBox .itemRight{
+        width: 100%;
+        text-align: center;
+    }
+    .infoList .content .itemRight{
+        padding: 0;
+    }
+
+    section.event .eventBanner .message{
+        position: absolute;
+        width: 100%;
+        max-width: 791px;
+        background-color: rgba(0,0,0,0.7);
+        top: 45px;
+        left: 45px;
+        max-width: 550px;
+        padding: 15px;
+    }
+    .event .fw .box{
+        width: 50%;
+    }
+    .event .fw .box:not(:first-child){
+        margin: 0;
+    }
+    .event .fw .box:not(:first-child):before{
+        position: absolute;
+        content: '';
+        height: 20px;
+        top: 0;
+        bottom: 10px;
+        right: 0;
+        margin: auto;
+        width: 50px;
+        background: url(../img/garrow.png);
+        background-repeat: no-repeat;
+        background-position: right 50px center;
+        overflow: hidden;
+    }
+    .event .fw .box .iBox.ga:before{
+        right: 0;
+
+    }
+    section.event .eventBanner .message .heading{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    section.event .eventBanner .message p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .eventBanner img{
+        height: 450px;
+    }
+    .event .bigCircle{
+        width: 50%;
+        text-align: center;
+        margin: 0;
+    }
+    .sliderArea .owl-carousel .item .detailsBox .heading{
+        font-size: 25px;
+    }
+    .sliderArea .owl-carousel .item .desc{
+        font-size: 18px;
+    }
+/* index */
+
+    
+/* ss */
+    #ss .leftList {
+        width: 90%;
+        max-width: 693px;
+        margin: 0 auto;
+        float: none;
+    }
+    #ss .rightImg {
+        float: none;
+        width: 50%;
+        margin: 50px auto 0;
+    }
+/* ss */
+
+
+/* main */
+    .navContainer{
+        display: none;
+    }
+    #main .bannerSlider .item{
+        background-position: 50%;
+        background-size: cover;
+    }
+    #main .bannerSlider .owl-carousel.owl-theme.owl-loaded.owl-drag{
+        overflow: hidden;
+    }
+    #main .bannerSlider .item{
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    #main .bannerSlider .item .contents{
+        padding: 28px 0;
+        padding-left: 30px;
+        max-width: 371px;
+    }
+    #main .bannerSlider .item .contents .type{
+        margin: -30px;
+        margin-bottom: 20px;
+    }
+    #main .bannerSlider .item .contents a{
+        font-size: 20px;
+    }
+    #main .bannerSlider .owl-dots{
+        display: block;
+        padding: 0 37px;
+    }
+    #main .bannerSlider  .owl-dots .owl-dot{
+        width: 100%;
+        max-width: 31px;
+        line-height: 5px;
+        height: 5px;
+        outline: none;
+        border: 0;
+    }
+    #main .bannerSlider  .owl-dots .owl-dot span{
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: 5px;
+        margin-right: 10px;
+        background-color: #9a9999;
+    }
+    #main .bannerSlider .owl-dots .owl-dot.active{
+        max-width: 55px;
+    }
+    #main .bannerSlider .owl-dots .owl-dot.active span, #main .bannerSlider .owl-theme .owl-dots .owl-dot:hover span{
+        background-color: white;
+    }
+/* main */
+
+/* TSI */
+.innovators .heading{
+    font-size: 25px;
+}
+.innovators .tsi .swiper-container{
+    margin-top: 20px;
+    padding: 15px 15px 0;
+}
+.innovators .tsi .swiper-slide.swiper-slide-next{
+    left: 0;
+}
+.innovators .tsi .swiper-slide.swiper-slide-prev{
+    right: 0;
+}
+/* TSI */
+
+/* SS */
+#ss .listBox .listItem br{
+    display: none;
+}
+#ss .listBox .listItem .right{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+#ss .stepBox{
+    float: none;
+    width: 50%;
+    padding-bottom: 50px;
+}
+#ss .stepBox.alignRight{
+    float: left;
+}
+#ss .imgList .imgBox:not(:first-of-type){
+    margin-left: -21px;
+}
+#ss .imgList .imgBox{
+    width: 33%;
+    margin: 0;
+    text-align: center;
+    float: left;
+    margin-top: 50px !important;
+}
+#ss .imgList .imgBox img{
+    width: 100%;
+    height: auto;
+}
+#ss .msgBox{
+    margin-top:50px;
+}
+/* SS */
+}
+
+@media only screen and (max-width: 991px){
+/* ss */
+    #ss .firstStage span{
+        line-height: 1;
+        padding: 150px 0;
+        display: block;
+        font-size: 25px;
+    }
+    #ss .listBox .listItem{
+        width: 100%;
+        max-width:660px;
+        margin:30px auto;
+    }
+    #ss .listBox .listItem .left img{
+        width: 100%;
+        height: auto;
+    }
+    #ss .listBox .listItem .left{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #ss .listBox .listItem .right{
+        display: block;
+        height: auto;
+        padding: 40px 30px;
+        padding-left: 50px;
+    }
+    #ss .listBox .listItem .right:before{
+        content: url(../img/quote1-1-mo.png);
+        top: 13px;
+        left: 18px;;
+    }
+    #ss .listBox .listItem .right:after{
+        content: url(../img/quote1-2-mo.png);
+        bottom: 13px;
+        right: 18px;
+    }
+    /* ss */
+    /* sv */
+    .sv .svBox {
+        width: 100%;
+        float: none;
+        margin: 0 auto 35px;
+        padding: 0;
+    }
+    .sv .svBox.middle {
+        margin: 0 auto 35px;
+    }
+    /* sv */
+    .precon .eventBox{
+        width: 100%;
+        float: none;
+    }
+    .precon .eventBox:not(:first-child){
+        margin: 0;
+        margin-top: 30px;
+    }
+    .precon .eventBox .event{
+        display: table;
+    }
+    .precon .eventBox .event .title {
+        position: relative;
+        display: table-cell;
+    }
+    .precon .eventBox .event .details {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .precon .eventBox .event .details .notes span{
+        font-size: 22px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .precon .eventBox .event .details a{
+        text-align: left;
+    }
+    .precon .eventBox .event .details a{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .precon .eventBox .event .details a span{
+        margin: 0;
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    section.event .list .itemList{
+        width: 50%;
+        max-width: 50%;
+    }
+    section.event .list .itemList:before{
+        right: 30px;
+    }
+    section .evlogo .imgHolder{
+        margin-top: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    section .evlogo .compInfo span{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    section.event.nmt{
+        margin-top: 0;
+    }
+    .topbox{
+        position: absolute;
+    }
+    section.event .eventBanner > p{
+        height: 275px;
+        font-size: 20px;
+        left: 0;
+        text-align: left;
+        background: none;
+        background-position: top left, left bottom;
+    }
+    section.event .eventBanner > p img{
+        display: block;
+        margin: 30px 0;
+    }
+/* footer */
+    #footerWrap .logo-b {
+        /* display: none; */
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #footerWrap .details, #footerWrap .link-wrap {
+        float: none;
+        width: 100%;
+    }
+    #footerWrap .site-notice, #footerWrap .copyright {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    #footerWrap .site-notice li{
+        line-height: 1;
+    }
+    #footerWrap .sns-wrap {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #footerWrap .newsletter {
+        margin: 0 auto;
+        float: none;
+        width: 60%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display:block;
+    }
+/* footer */
+
+/* essay */
+#essay h3{
+    font-size: 40px;
+}
+.essayContent .contentContainer{
+    padding: 0 30px;
+}
+.essayContent .postings{
+    margin:70px 0;
+}
+.essayContent .postings .col-xs-12{
+    padding: 0;
+}
+.essayContent .postings img{
+    width: 100%;
+}
+.essayContent .boxes{
+    margin-bottom: 70px;
+}
+.essayContent .title{
+    font-size: 20px;
+    border-top: 3px solid;
+    padding-left: 80px;
+    margin-bottom: 34px;
+    line-height: 65px;
+    padding-top: 0;
+    margin-bottom: 12px;
+}
+.essayContent .title:before{
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 65px;
+    left: 0;
+    top: 0;
+}
+.essayContent .boxes .content p{
+    font-size: 25px;
+}
+.essayContent .postings .details{
+    margin-top: 25px;
+}
+.essayContent .postings .details p{
+    font-size: 25px;
+}
+.essayContent .postings .details:not(:first-of-type){
+    margin-top: 30px;
+}
+.essayContent .qouteBox{
+    margin-bottom: 40px;
+}
+/* essay */
+
+/* ss */
+#ss .orgSection{
+    padding: 0 !important;
+    background: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+#ss .orgSection span.heading:after{
+    display: none;
+}
+#ss .orgSection img{
+    width: 100%;
+}
+/* ss */
+
+/* event */
+.tsvt-form form label{
+    display: block;
+}
+.tsvt-form form input[type="text"]{
+    max-width: 100%;
+    display: block;
+}
+.tsvt-form form textarea{
+    max-width: 100%;
+}
+.tsvt-form form .other a{
+    word-break: break-all;
+    white-space: unset;
+    display: block;
+}
+/* event */
+
+
+/* index */
+    .banner .topArea{
+        padding-top: 116px;
+    }
+    .banner .note{
+        font-size: 22.34px;
+    }
+    .banner .tagBox .bgRed{
+        font-size: 17.87px;
+    }
+    .banner .tagBox span{
+        font-size: 17.87px;
+    }
+    .banner .topArea h3{
+        font-size: 62.55px;
+    }
+    .banner .topArea .otherBox span{
+        font-size: 20px;
+    }
+    .bBox .bgGray p br{
+        display: none;
+    }
+    .bBox .bgGray p{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft p{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft .question{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemLeft .tophead{
+        font-size: 20px;
+    }
+    .infoList .itemBox .itemRight{
+        width: 100%;
+        float: none;
+    }
+    .infoList .itemBox .itemRight .info .head{
+        font-size: 25px;
+    }
+    .infoList .itemBox .itemRight .info p{
+        font-size: 22px;
+    }
+
+    section.event .message{
+        position: relative;
+        left: 0;
+        top: 0;
+        color: white;
+        margin-top: 30px;
+        padding-bottom: 100px;
+    }
+    section.event .message .heading{
+        color: white;
+        font-size: 28.36px;;
+        display: block;
+    }
+    section.event .message p{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+        .precon .eventBox:not(:first-child){
+        margin: 0;
+        margin-top: 30px;
+    }
+    .sliderArea .owl-carousel .item .detailsBox{
+        position: relative;
+    }
+    .sliderArea .owl-carousel .item .userBox{
+        margin: 30px auto;
+    }
+    .event .contentContainer .orange{
+        padding-left: 30px;
+    }
+    section.event .contentContainer .heading{
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+    section.event .contentContainer  .nopad .heading{
+        padding-left: 0;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .event .contentContainer + .sliderArea .orange{
+        margin-top: 2%;
+        padding: 0;
+    }
+    .sliderArea .owl-carousel .item .userBox img{
+        width: 80%;
+        height: auto;;
+        margin: 0 auto;
+    }
+    
+    .sliderArea .owl-carousel .item .detailsBox .heading{
+        background: none;
+        padding: 0;
+    }
+    .infoList .content .itemRightMob img{
+        width: 100%;
+    }
+/* index */
+
+/* hv */
+.bBox .bgGray{
+    padding-bottom: 0;
+}
+.infoList .itemBox .itemLeft .heading{
+    font-size: 25px;
+    line-height: 1.5;
+}
+.infoList .itemBox .itemLeft .title{
+    font-size: 30px;
+}
+.infoList .itemBox .itemLeft p{
+    font-size: 20px;
+}
+.infoList .itemBox .itemRight .info p{
+    font-size: 20px;
+}
+/* hv */
+}
+@media only screen and (max-width:720px){
+/* index */
+    .banner{
+        background-image: url(../img/indexbanner1.png);
+    }
+/* index */
+/* essay */
+    #essay{
+        background: url(../img/essaybgmob.png);
+        padding-top: 75px;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+/* essay */
+/* main */
+#main .bannerSlider .contentContainer{
+    padding: 0;
+}
+#main .slide1{
+    background-image: url(../img/s1mob.png) !important;
+}
+#main .slide2{
+    background-image: url(../img/s2mob.png) !important;
+}
+#main .slide3{
+    background-image: url(../img/s3mob.png) !important;
+}
+/* main */
+/* ss */
+
+#ss .banner{
+    height:auto;
+    background: url(../img/sssmob.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+#ss .note{
+    font-size: 22px;
+}
+.banner .topArea{
+    padding-top: 10%;
+}
+#ss .tagbox{
+    font-size: 60px;
+}
+#ss .list ul{
+    margin-bottom: 0;
+}
+.p100{
+    padding: 50px 0 !important;
+}
+.sv-text{
+    display: block;
+}
+
+.sv-text p{
+    font-size:16px;
+}
+#ss .firstStage{
+    background: url(../img/fsmob.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 330px;
+}
+#ss span.heading:after{
+    display: none;
+}
+#ss .firstStage span{
+    line-height: 1.3;
+}
+#ss .listBox .listItem .left img{
+    max-height: 330px;
+}
+#ss .imgList .smile.smile1{
+    left: 28%;
+}
+#ss .imgList .smile.smile2{
+    right: 28%;
+}
+#ss .imgList .imgBox{
+    width: 244px;
+    height: auto;
+}
+#ss .stepBox{
+    max-width: 302px;
+}
+#ss .stepBox img{
+    width: 100%;
+}
+
+/* ss */
+
+
+}
+
+@media only screen and (max-width:719px){
+/* main */
+#main .level .contentBox .title{
+    font-size: 20px;
+}
+/* main */
+
+/* ss */
+    #ss .note{
+        font-size: 19px;
+    }
+    #ss .listBox .listItem .left img{
+        max-height: unset;
+    }
+    #ss .stepBox{
+        width: 100%;
+        float: none !important;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    #ss .stepBox img{
+        max-width: 302px;
+    }
+    #ss .imgList .imgBox{
+        width: 100%;
+    }
+    #ss .imgList .smile{
+        display: none !important;
+    }
+    #ss .imgList .imgBox:not(:first-of-type){
+        margin: 0;
+    }
+    #ss .leftList .studBox{
+        display: block;
+        width: 100%;
+    }
+    #ss .leftList .studBox .imgPic {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #ss .leftList .studBox .studInfo{
+        display: block;
+    }
+    #ss .rightImg{
+        width: 100%
+    }
+/* ss */
+    .cta span img{
+        display: inline-block !important;
+    }
+    .cta span:after{
+        display: none;
+    }
+    #main .bannerSlider .item.woman.woman-3
+    {
+        background-position-x :calc(100% + 450px);
+    }
+    
+}
+
+
+@media only screen and (max-width: 650px){
+/* header */
+    header .navHolder nav .mobile .menuTitle{
+        font-size: 25px;
+        width: 100%;
+    }
+    header .navHolder nav .mobile ul li a{
+        font-size: 18px;
+    }
+/* header */
+
+/* essay */
+    .essayContent .title{
+        font-size: 18px;
+        border-top: 3px solid;
+        padding-left: 80px;
+        margin-bottom: 34px;
+        line-height: 65px;
+        padding-top: 0;
+        margin-bottom: 12px;
+    }
+    .essayContent .title:before{
+        position: absolute;
+        content: '';
+        width: 65px;
+        height: 65px;
+        left: 0;
+        top: 0;
+    }
+    .essayContent .postings{
+        margin: 40px 0;
+    }
+    .essayContent .boxes{
+        margin: 40px 0;
+    }
+    .essayContent .boxes .content p{
+        font-size: 16px;
+    }
+    .essayContent .postings .details{
+        margin: 0;
+    }
+    .essayContent .postings .details p{
+        font-size: 16px;
+    }
+    .essayContent .qouteBox span{
+        font-size: 20px;
+        padding: 30px 0;
+    }
+/* essay */
+/* hv */
+.banner .icon{
+    width: 75px;
+    height: 75px;
+}
+.banner .ricon:before {
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 20px;
+    background: #dc052b;
+}
+.banner .ricon:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 75px;
+    background: #dc052b;
+}
+.banner .oicon:before {
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 20px;
+    bottom: 0;
+    background: #ee7609;
+}
+.banner .oicon:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    right: 0;
+    height: 75px;
+    background: #ee7609;
+}
+.precon .eventBox .event{
+    display: block;
+    text-align: left;
+}
+.precon .eventBox .event .title{
+    display: block;
+}
+.precon .eventBox .event .details{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+.banner .note {
+    font-size: 18.34px;
+}
+.banner .tagBox .bgRed {
+    font-size: 12.87px;
+}
+.banner .topArea h3{
+    font-size: 33px;
+}
+.banner .topArea .otherBox{
+    margin-top: 35px;
+}
+.banner .topArea .otherBox span {
+    font-size: 18px;
+}
+section.event .eventBanner > p{
+    height: 300px;
+    padding: 0 30px;
+}
+section.event .itemBox .itemLeft .countTitle .step {
+    font-size: 25px;
+    width: 10%;
+    line-height: 59px;
+    margin-right: 1%;
+}
+section.event .itemBox .itemLeft .countTitle .title{
+    width: 87%;
+}
+section.event .itemBox .itemLeft .countTitle .title br{
+    display: none;
+}
+.infoList .itemBox .itemLeft p{
+    line-height: 1.5;
+}
+.event .fw .box{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.event .bigCircle{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.event .fw .box .iBox.ga:before{
+    display: none;
+}
+section.event .list .itemList{
+    width: 100%;
+    max-width: 100%;
+}
+section.event .list .itemList:before{
+    display: none;
+}
+section .evlogo .bigImg{
+    display: none;
+}
+section .evlogo .compInfo{
+    margin-top: 30px;
+}
+section .evlogo .imgHolder{
+    display: block;
+}
+section .evlogo .compInfo span{
+    display: block;
+}
+/* hv */
+}
+@media only screen and (max-width: 650px){
+    .modal-bg .modal-box{
+        top:50px;
+        -webkit-transform:translate(-50%,0);
+        -moz-transform:translate(-50%,0);
+        transform:translate(-50%,0);
+    }
+    .modal-bg .modal-box .modal-top{
+        height: 45px;
+        padding:0 30px;
+    }
+    .modal-bg .modal-box .modal-top p{
+        line-height: 45px;
+    }
+    .modal-bg .modal-box .modal-con{
+        padding:15px 30px;
+    }
+    .modal-bg .modal-box .modal-con p{
+        font-size:12.885px;
+    }
+    .modal-bg .modal-box .btn-modal-close{
+        margin-top:20px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+/* event */
+    .tsvt-form .btnBox .mybtn2{
+        width: 45%;
+        margin:0;
+        font-size: 15px;
+        line-height: 30px;
+    }
+ /* event */
+ /* hsv */
+.banner .tagBox span{
+    display: block;
+    margin-bottom: 10px;
+}
+.banner .topArea {
+    padding-top: 50%;
+}
+section.event .eventBanner > p{
+    height: 150px;
+    font-size: 15px;
+}
+section.event .eventBanner > p img{
+    margin: 5px 0;
+}
+section.event .contentContainer .heading{
+    font-size: 19px;
+}
+section.event .itemBox .itemLeft .countTitle .step {
+    font-size: 15px;
+    width: 10%;
+    line-height: 42px;
+    margin-right: 1%;
+}
+section.event .itemBox .itemLeft .countTitle .title{
+    font-size: 15px;
+}
+section.event .message{
+    padding: 20px;
+}
+section.event .message p{
+    font-size: 17px;
+}
+.cta span{
+    font-size: 18px;
+}
+.cta span img{
+    width: 7% !important;
+}
+#main .bannerSlider .item.woman
+{
+    background-position-x :calc(100% + 70px);
+}
+
+ /* hsv */
+}  
+
+@media only screen and (max-width: 425px){
+    section.event .itemBox .itemLeft .countTitle .step {
+        line-height: 36px;
+    }
+    /* main */
+    .tsvt-form .myBtn{
+        line-height: 50px;
+        font-size: 20px;
+    }
+    /* main */
+    /* ss */
+    #ss .note {
+        font-size: 18px;
+    }
+    #ss .tagbox {
+        font-size: 35px;
+    }
+    #ss span.heading{
+        font-size: 19px
+    }
+    #ss .listBox .listItem .right p{
+        font-size: 16px;
+    }
+    #ss .firstStage span{
+        font-size: 18px;
+    }
+    #ss .stepBox span{
+        font-size: 16px;
+    }
+    #ss .msgBox span{
+        font-size: 16px;
+    }
+    #ss .btmTex .head{
+        font-size: 18px;
+    }
+    #ss .btmTex p{
+        font-size: 16px;
+    }
+    /* ss */
+    .cta span{
+        font-size: 13px;
+    }
+
+
+}
+@media only screen and (max-width: 375px){
+    section.event .itemBox .itemLeft .countTitle .step {
+        line-height: 31px;
+    }
+/* header */
+    header .navHolder nav .mobile div{
+        width: 100%;
+        border: 0;
+    }
+    header .logo{
+        width:140px;
+    }
+    header .searchBox .burger{
+        width: 35px;
+    }
+    header img{
+        width: 100%;
+    }
+
+/* header */
+/* main */
+    #main .logoBox .col-xs-6{
+        width: 100%;
+        float: none;
+    }
+/* main */
+    .itemRight img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+    section.event .itemBox .itemLeft .countTitle .step {
+        line-height: 26px;
+    }
+}
+
+.inSight-mo {
+	display: none;
+}
+
+@media only screen and (max-width: 414px){
+
+	.inSight-pc {
+		display: none;
+	}
+
+	.inSight-mo {
+		display: block;
+	}
+
+}

@@ -1,0 +1,304 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/font.css">
+      <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body class="essay">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="modal-bg" id="popup">
+            <div class="modal-box">
+                <div class="modal-top">
+                    <p>사회적 기업 표기 안내</p>
+                </div>
+                <div class="modal-con">
+                    <p>
+                        현행 '사회적기업 육성법'에서는 고용노동부로부터 인증을 받지 않은 자는 '사회적기업'이라는 명칭을 사용하지 못하도록 되어 있다. (법 19조, 유사 명칭 사용 금지) 그러나 행복나눔재단 웹진 및 뉴스레터에서는 용어의 통일을 위해 인증 '사회적기업'과 일반 '사회적 기업' 모두 구분 없이 '사회적 기업'으로 표기했다.
+                    </p>
+                    <div class="button-con text-center">
+                        <button type="button" class="btn-modal-close"><span>닫기</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+                <div class="container">
+                  <div class="pull-left">
+                    <span>2018</span>
+                    <span>August</span>
+                    <span class="red bold">Vol. 04</span>
+                  </div>
+                  <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                  <div class="pull-right searchBox">
+                      <a href="#" class="burger" hidden><img src="img/burger.png" alt=""></a>
+                      <div class="utility">
+                          <!-- s:다른호 보기 -->
+                          <select name="" id="prev_site">
+                              <option value="">다른호 보기</option>
+                              <option value="">-- The Social Value Times --</option>
+                              <option value="SVT/vol02">vol.02</option>
+                              <option value="SVT/vol03">vol.03</option>
+                              <option value="">-- HappyAnd --</option>
+                              <option value="vol01">vol.01</option>
+                              <option value="vol02">vol.02</option>
+                              <option value="vol03">vol.03</option>
+                              <option value="vol04">vol.04</option>
+                              <option value="vol05">vol.05</option>
+                              <option value="vol06">vol.06</option>
+                              <option value="vol07">vol.07</option>
+                              <option value="vol08">vol.08</option>
+                              <option value="vol09">vol.09</option>
+                              <option value="vol10">vol.10</option>
+                              <option value="vol11">vol.11</option>
+                              <option value="vol12">vol.12</option>
+                              <option value="vol13">vol.13</option>
+                              <option value="vol14">vol.14</option>
+                          </select>
+                          <button type="button" class="btn-go" onclick="javascript:fn_prev_site();">이동</button>
+                          <!-- //e:다른호 보기 -->
+                      </div>
+                  </div>
+                </div>
+                <div class="navHolder">
+                  <div class="container">
+                    <nav>
+                      <ul class="clearfix desktop">
+                        <li><a href="essay_2.html" class="active">Essay</a></li>
+                        <li><a href="ss.html">소셜 현장, S가 간다</a></li>
+                        <li><a href="h_sv.html">숨어있는 SV를 찾다</a></li>
+                        <li><a href="t&r.html">Trend & Review</a></li>
+                        <li><a href="tsi.html">The Social Innovators</a></li>
+                        <li><a href="sv.html">SV, 세계는 지금</a></li>
+                        <li><a href="sst.html">Social Talk Talk</a></li>                  
+                        <li><a href="tsvt.html">Event</a></li>
+                      </ul>
+                    <div class="clearfix mobile">
+                            <div class="col-xs-6 np text-center">
+                                <span class="menuTitle">contents</span>
+                                <ul>
+                                    <li><a href="essay_2.html">Essay</a></li>
+                                    <li><a href="ss.html">소셜 현장, S가 간다</a></li>
+                                    <li><a href="h_sv.html">숨어있는 SV를 찾다</a></li>
+                                    <li><a href="t&r.html">Trend & Review</a></li>
+                                    <li><a href="sv.html">SV, 세계는 지금</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6 np text-center ">
+                                <div class="Series">
+                                    <span class="menuTitle">series</span>
+                                    <ul>
+                                        <li><a href="tsi.html">The Social Innovators</a></li>
+                                    </ul>
+                                 </div>
+                                <div class="Series bt1">
+                                    <span class="menuTitle">News & Event</span>
+                                    <ul>
+                                        <li><a href="sst.html">Social Talk Talk</a></li>                  
+                                        <li><a href="tsvt.html">Event</a></li>
+                                    </ul>
+                                 </div>
+                            </div>
+                            <div class="col-xs-12 np">
+                              <div class="pull-right searchBox">
+                                <div class="utility">
+                                    <!-- s:다른호 보기 -->
+                                    <select name="" id="prev_site">
+                                        <option value="">다른호 보기</option>
+                                        <option value="">-- The Social Value Times --</option>
+                                        <option value="SVT/vol02">vol.02</option>
+                                        <option value="SVT/vol03">vol.03</option>
+                                        <option value="">-- HappyAnd --</option>
+                                        <option value="vol01">vol.01</option>
+                                        <option value="vol02">vol.02</option>
+                                        <option value="vol03">vol.03</option>
+                                        <option value="vol04">vol.04</option>
+                                        <option value="vol05">vol.05</option>
+                                        <option value="vol06">vol.06</option>
+                                        <option value="vol07">vol.07</option>
+                                        <option value="vol08">vol.08</option>
+                                        <option value="vol09">vol.09</option>
+                                        <option value="vol10">vol.10</option>
+                                        <option value="vol11">vol.11</option>
+                                        <option value="vol12">vol.12</option>
+                                        <option value="vol13">vol.13</option>
+                                        <option value="vol14">vol.14</option>
+                                    </select>
+                                    <button type="button" class="btn-go" onclick="javascript:fn_prev_site();">이동</button>
+                                    <!-- //e:다른호 보기 -->
+                                </div>
+                            </div
+                            ></div>
+                    </div>
+                    </nav>
+                  </div>
+                </div>
+        </header>
+        <section id="essay" class="" >
+            <div class="contentContainer">
+                <span class="rounded red">Essay</span>
+                <h3 class="heading">나는 지금, <br>
+                <strong>나눔의 런웨이</strong>를 <br class="visible-xs"> 걷고 있다
+                </h3>
+                <span class="sub">모델 변정수 편</span>
+            </div>
+        </section>
+        <section class="essayContent">
+            <div class="contentContainer">
+                <div class="postings clearfix">
+                   <div class="col-xs-12 col-sm-6 np hidden-xs">
+                        <div class="redIcon icon hidden-lg"></div>
+                        <div class="orangeIcon icon hidden-lg"></div>
+                       <img src="img/essay1-1.png" alt="" class="img-responsive">
+                   </div>
+                   <div class="col-xs-12  col-sm-6 details">
+                       <span class="head">나는 연예인이다.</span> 
+                       <p> 남들에게 보여지는 직업의 특성상, 화려한 옷과 비싼 액세서리로 한껏 꾸미기도 하고
+                       럭셔리한 행사에 참여하여 많은 사람들을 만나기도 한다.그래서 바쁘고 호화로운
+                       생활만 할 것 같은 내가 매년 빈곤국을 찾아 오줌이 묻은 호텔에 지내며 아이들을 돕고
+                       화장도 안 한 채 땀 흘리며 음식을 만드는 모습이 낯설게 보이기도 하겠다.</p>
+                       
+                       <p>하지만 어느덧 내가 봉사활동을 이어온 지 15년. 나눔은 밥을 먹고, 일하고, 사람들을
+                       만나는 여느 사람의 평범한 일상처럼 내 생활의 한 부분으로 자연스럽게 자리잡았다.
+                       누군가 내게 이런 변화의 계기를 묻는다면 나는 첫째 아이의 출산이라고 말하곤 한다.</p>
+                       
+                       <p>아이를 보면 질색하기 바빴던 내가 한 아이의 엄마가 되며 세상을 보는 시선이
+                       달라졌으니까. 내 아이 뿐만 아니라 다른 아이들을 위해  뭔가를 하고 싶었던 그 마음이
+                       모델 변정수를 지금까지 나눔의 런웨이를 걷게 만들었다. 그렇게 시작된 내 봉사활동
+                       이야기를 여기에 짧게 풀어보고자 한다.</p>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 np visible-xs">
+                        <div class="redIcon icon"></div>
+                        <div class="orangeIcon icon"></div>
+                       <img src="img/essay1-mob.png" alt="" class="img-responsive">
+                   </div>
+                </div>
+                <div class="orange boxes">
+                    <span class="title"><나눔, 당당한 워킹처럼></span>
+                    <div class="imgBox">
+                        <img src="img/essay2-img.png" alt="" class="img-responsive hidden-xs">
+                        <img src="img/essay2-mob.png" alt="" class="img-responsive visible-xs">
+                    </div>
+                    <div class="content">
+                        <p> <span> 처음 봉사활동을 시작했을 때 나는 주변의 시선을 걱정했다.</span> 내가 봉사단체의 홍보대사를 맡는 것도, 해외로 봉사를 하러 가는 것도, 어려운 아이들을 위한 어떤 선행도 누군가에게는 가식처럼 느껴질 수 있었기 때문이다. 하지만 이런 걱정을 하는 내게 남편은 말했다.＂네 역할이 원래 경험하고 전달하며 도와주는 것이다. 도와줄게 우리가.＂ 오히려 연예인으로서 내가 할 수 있는 일을 찾고 열심히 뛰면 된다고 격려를 해주었다. 가족의 응원 덕분에 후원 기업의 현판을 들고 사진 촬영에 그치는 홍보대사가 아닌, 아이들을 위한 내 역할이 과연 무엇일지 고민하기 시작했고 결혼 10주년을 기념하여 방글라데시로 남편과 함께 생애 첫 해외 봉사활동을 떠나게 되었다.
+                        </p>
+
+                        <p> 
+                        <span> 아이들의 현실을 직접 두 눈으로 보지 못했다면, </span> 아이들을 돕고 싶다는 내 생각은 계속 머릿속에만 있었을지도 모른다. 하지만 학교는 어떻게 다니고 있고 주거 환경은 어떤지 아이들의 일상과 환경을 직접 두 눈으로 보고 느낀 후에는 다르다. 열악환 환경을 직접 경험했기에 그들의 고통을 조금이나마 이해할 수 있게 되었고 문제를 개선할 방법을 찾게 된 것이다. 
+                        </p>
+                        <p> 
+                        <span>  그래서 나는 어떤 일이라도 시작을 망설이는 사람들에게 말할 수 있다. 글과 사진으로만 인생을 경험하지 말고 직접 체험하라고. </span> 그리고 각자의 자리에서 무엇을 할 수 있는지
+                        고민하고 일단 일을 만들어 보라고.물론 새로운 일을 벌이는 것은 참 피곤한 짓이다. 하지만 또 이상한 건 그 과정에 행복이 있고 설렘이 있다. 또한 내 모습을 지켜본 아이들에게는 자연스럽게 교육이 되었다. 한국과 달리 불편한 환경에 징징거리던 아이들도 우리 부부가 몸소 행동하는 모습을 통해 나눔의 가치에 익숙해졌고, 자신과 다른 환경의 또래 친구들을 보며 자신을 돌아보고 성숙하게 되는 계기가 된 것이다. 그래서 해외 봉사 계획을 짜는 동안 우리 가족 회의에는 다툼이 없다. 누구를 위해 우리가 시간을 내서 회의를 하는지 본인들이 더 잘 알기 때문이다
+                        </p>
+                    </div>
+                    <div class="imgHolder">
+                        <img src="img/essay3-img.png" alt="" class="img-responsive hidden-xs">
+                        <img src="img/essay3-mob.png" alt="" class="img-responsive visible-xs">
+                    </div>
+                </div>
+                <div class="red boxes">
+                    <span class="title"><나눔, 당당한 워킹처럼></span>
+                    <div class="imgBox">
+                        <img src="img/essay4-img.png" alt="" class="img-responsive hidden-xs">
+                        <img src="img/essay4-mob.png" alt="" class="img-responsive visible-xs">
+                    </div>
+                    <div class="content">
+                        <p> <span> 나는 일시적인 도움에서 끝나는 나눔이 아닌, 지속적으로 문제를 해결할 수 있는 인프라가 중요하다고 생각한다.</span> 집과 엄마가 없는 아이들을 위해 마을을 마련하고,성인이 될 때까지 도움을 주는 봉사단체의 홍보대사로 활동하며 아이들이 부족함 없이 성장할 뿐만 아니라 자립 역시 안전하게 해낼 수 있도록 돕고 싶어졌다.그렇게 2014년부터 무작정 시작한 것이 러브플리마켓이다. 지인들에게 소식을 알리고, 필요한 인력과 물품을 요청하며 각자 자신이 할 수 있는 일을 맡아 서로의 힘을 더했다. 그 결과 기업과 개인의 후원이 이어지며, 마을의 아이들에게 필요한 집과 생활용품을 마련할 수 있었다. 뿐만 아니라 비싼 병원비로 치료가 어려운 아이들에게까지 도움을 줄 수 있게 되었다. 나 혼자였다면 과연 이 모든 것을 해낼 수 있었을까? 나는 단지 내 역할에 충실했을 뿐이다. 사실 이 글을 쓰는 지금도 올해의 러브플리마켓을 앞두고 200명이 참여한 단체 채팅방의 대화가 끊이지 않고 있다. 곁에서 함께하는 사람들이 있기 때문에 나는 나만이 할 수 있는 일을 고민하고 실행할 수 있는 것이다.
+                        </p>
+                    </div>
+                    <div class="postings clearfix">
+                        <div class="col-xs-12  col-sm-6 text-right visible-xs">
+                            <div class="imgBox">
+                                <img src="img/essay5-mob.png" alt="" class="img-responsive visible-xs">
+
+                            </div>
+                        </div>
+                        <div class="col-xs-12  col-sm-6 np details">
+                            <p> <span>그래서 당장 이룰 수 없는 내 꿈도 언젠가는 이뤄질 거라 믿는다. </span> 내게 꿈이 있다면 빈곤국의 엄마들을
+                            위해 2010년부터 시작된 <맘센터>를 죽기 전에 전 세계에 100 개를 짓는 것이다.<맘센터>는 엄마의
+                            영문 ‘맘(mom)’과 한글 ‘마음’의 줄임말로, ‘엄마의 마음으로 지구촌 빈곤 아동을 보듬겠다’는 의미를
+                            담고 있다. 훌륭한 분들이  이미 어려운 사람들을 위해 학교를 짓고 집을 짓고 우물을 팔 때 내 눈에는
+                            너무 많은 일을 감당하는 수많은 엄마들이 보였다. 그녀들의 고단한 삶에 수입을 만들어 주고 삶에
+                            필요한 다양한 지식을 전하고 싶었다. 그래서 직무 교육이 가능한 건물을 짓고 자신의 아이와 함께 참여할 수 있는 <맘센터>를 만든 것이다.</p>
+                            <p> 현재 7 곳이 완성되었는데 과연 내가 할 수 있을까 싶다가도 내가 못 이루면 자신들이 이어 완성하겠다는
+                            듬직한 두 딸을 통해 한 사람의 시작이 수많은 사람들의 변화가 될 수 있다고 생각하게 되었다. 그런 점에서
+                            작은 시작은 없는 것이 아닐까? 미약한 시작으로 보일지 몰라도 생각이 바뀌고 사람이 모인다면 세상을
+                            크게 바꿀 수도 있으니까.</p>
+                        </div>
+                        <div class="col-xs-12  col-sm-6 text-right hidden-xs">
+                            <div class="imgBox">
+                                <img src="img/essay5-img.png" alt="" class="img-responsive hidden-xs">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="qouteBox">
+                    <div class="redIcon icon"></div>
+                    <div class="orangeIcon icon"></div>
+                    <div class="text-center qoute">
+                        <span>이것이 내가 멈추지 않고 <br class="visible-xs"> 나눔의 런웨이를 걸어가는 이유다.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footerWrap">
+          <a href="javascript:void(0);" class="goTop"><img src="img/goTop.png" alt=""></a>
+            <div class="default-wrap contentContainer">
+                <div class="col-md-12 np">
+                    <div class="details">
+                        <a href="#" target="_blank" title="홈페이지로 이동-새창" class="logo-b"><img src="img/img_logo_b.jpg" alt="행복나눔재단"></a>
+                        <div class="site-notice">
+                            <ul>
+                                <li><a href="#" onclick="#">사회적기업표기안내</a></li>
+                                <li><a href="http://www.skhappiness.org/news/notice/view.do?bid=642" target="_blank">개인정보처리방침</a></li>
+                            </ul>
+                        </div>
+                        <p class="copyright">Copyright 2018 행복나눔재단 All right Reserved.</p>
+                    </div>
+                    <!-- s:link-wrap -->
+                    <div class="link-wrap">
+                        <!-- s:sns-wrap -->
+                        <div class="sns-wrap">
+                            <ul>
+                                <li><a href="#" title="행복나눔재단 페이스북 바로가기 새창으로 이동합니다." class="sns-fb"><!--행복나눔재단 페이스북 바로가기 - 새창--></a></li>
+                                <li id="blogTag">
+                                    <a href="javascript:void(0)" class="sns-b" title="행복나눔재단 블로그 바로가기 새창으로 이동합니다."><!--<img id="naver" src="https://ssl.pstatic.net/share/images/appicon/naver_square_30x30.png" alt="네이버로공유" width="30" height="30">행복나눔재단 블로그 바로가기 - 새창--></a><script type="text/javascript" src="http://share.naver.net/js/naver_sharebutton.js"></script>
+                                </li>
+                                <li><a href="#" title="행복나눔재단 카카오스토리 바로가기 새창으로 이동합니다." class="sns-ks"><!--행복나눔재단 카카오스토리 바로가기 - 새창--></a></li>
+                                 <li><a href="#" title="행복나눔재단 웹진 원고를 다운받습니다." class="btn-down"><!--웹진 원고 다운로드--></a></li> 
+                            </ul>
+                        </div>
+                        <!-- //e:sns-wrap -->
+                        <a href="#" class="newsletter"><img src="/webzine/SVT/vol01/images/common/icon_newletter.gif" alt="">뉴스레터 구독하기</a>
+                    </div>
+                <!-- //e:link-wrap -->
+                </div>  
+            <!-- //e:col-md-12 -->
+            </div>
+            <!-- </div> -->
+        </footer>
+
+        
+        
+        
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/swiper.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+</html>
